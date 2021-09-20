@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\degisken\bin\Debug\net5.0\degisken.exe
+E:\Projects\CSharp\patikaDevPratikler\degisken\bin\Debug\net5.0\degisken.deps.json
+E:\Projects\CSharp\patikaDevPratikler\degisken\bin\Debug\net5.0\degisken.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\degisken\bin\Debug\net5.0\degisken.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\degisken\bin\Debug\net5.0\degisken.dll
+E:\Projects\CSharp\patikaDevPratikler\degisken\bin\Debug\net5.0\ref\degisken.dll
+E:\Projects\CSharp\patikaDevPratikler\degisken\bin\Debug\net5.0\degisken.pdb
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.dll
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\ref\degisken.dll
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.pdb
+E:\Projects\CSharp\patikaDevPratikler\degisken\obj\Debug\net5.0\degisken.genruntimeconfig.cache
