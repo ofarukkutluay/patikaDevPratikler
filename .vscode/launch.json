@@ -9,6 +9,17 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "console-programlama (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/console-programlama/bin/Debug/net5.0/console-programlama.dll",
             "args": [],
             "cwd": "${workspaceFolder}/console-programlama",

@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\operatorler\bin\Debug\net5.0\operatorler.exe
+E:\Projects\CSharp\patikaDevPratikler\operatorler\bin\Debug\net5.0\operatorler.deps.json
+E:\Projects\CSharp\patikaDevPratikler\operatorler\bin\Debug\net5.0\operatorler.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\operatorler\bin\Debug\net5.0\operatorler.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\operatorler\bin\Debug\net5.0\operatorler.dll
+E:\Projects\CSharp\patikaDevPratikler\operatorler\bin\Debug\net5.0\ref\operatorler.dll
+E:\Projects\CSharp\patikaDevPratikler\operatorler\bin\Debug\net5.0\operatorler.pdb
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.dll
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\ref\operatorler.dll
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.pdb
+E:\Projects\CSharp\patikaDevPratikler\operatorler\obj\Debug\net5.0\operatorler.genruntimeconfig.cache
