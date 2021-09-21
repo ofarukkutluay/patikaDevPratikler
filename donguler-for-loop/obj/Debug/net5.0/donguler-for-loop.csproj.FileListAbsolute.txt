@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\bin\Debug\net5.0\donguler-for-loop.exe
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\bin\Debug\net5.0\donguler-for-loop.deps.json
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\bin\Debug\net5.0\donguler-for-loop.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\bin\Debug\net5.0\donguler-for-loop.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\bin\Debug\net5.0\donguler-for-loop.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\bin\Debug\net5.0\ref\donguler-for-loop.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\bin\Debug\net5.0\donguler-for-loop.pdb
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\ref\donguler-for-loop.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.pdb
+E:\Projects\CSharp\patikaDevPratikler\donguler-for-loop\obj\Debug\net5.0\donguler-for-loop.genruntimeconfig.cache
