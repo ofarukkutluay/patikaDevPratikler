@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\bin\Debug\net5.0\donguler-while-foreach.exe
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\bin\Debug\net5.0\donguler-while-foreach.deps.json
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\bin\Debug\net5.0\donguler-while-foreach.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\bin\Debug\net5.0\donguler-while-foreach.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\bin\Debug\net5.0\donguler-while-foreach.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\bin\Debug\net5.0\ref\donguler-while-foreach.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\bin\Debug\net5.0\donguler-while-foreach.pdb
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\ref\donguler-while-foreach.dll
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.pdb
+E:\Projects\CSharp\patikaDevPratikler\donguler-while-foreach\obj\Debug\net5.0\donguler-while-foreach.genruntimeconfig.cache
