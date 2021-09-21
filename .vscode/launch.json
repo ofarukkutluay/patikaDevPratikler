@@ -16,6 +16,17 @@
             "console": "internalConsole"
         },
         {
+            "name": "hata-yonetimi (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/hata-yonetimi/bin/Debug/net5.0/hata-yonetimi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
             "name": "console-programlama (console)",
             "type": "coreclr",
             "request": "launch",
