@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\switch-case\bin\Debug\net5.0\switch-case.exe
+E:\Projects\CSharp\patikaDevPratikler\switch-case\bin\Debug\net5.0\switch-case.deps.json
+E:\Projects\CSharp\patikaDevPratikler\switch-case\bin\Debug\net5.0\switch-case.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\switch-case\bin\Debug\net5.0\switch-case.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\switch-case\bin\Debug\net5.0\switch-case.dll
+E:\Projects\CSharp\patikaDevPratikler\switch-case\bin\Debug\net5.0\ref\switch-case.dll
+E:\Projects\CSharp\patikaDevPratikler\switch-case\bin\Debug\net5.0\switch-case.pdb
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.dll
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\ref\switch-case.dll
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.pdb
+E:\Projects\CSharp\patikaDevPratikler\switch-case\obj\Debug\net5.0\switch-case.genruntimeconfig.cache
