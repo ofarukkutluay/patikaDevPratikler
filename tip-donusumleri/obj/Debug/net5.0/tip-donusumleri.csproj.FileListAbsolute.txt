@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\bin\Debug\net5.0\tip-donusumleri.exe
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\bin\Debug\net5.0\tip-donusumleri.deps.json
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\bin\Debug\net5.0\tip-donusumleri.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\bin\Debug\net5.0\tip-donusumleri.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\bin\Debug\net5.0\tip-donusumleri.dll
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\bin\Debug\net5.0\ref\tip-donusumleri.dll
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\bin\Debug\net5.0\tip-donusumleri.pdb
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.dll
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\ref\tip-donusumleri.dll
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.pdb
+E:\Projects\CSharp\patikaDevPratikler\tip-donusumleri\obj\Debug\net5.0\tip-donusumleri.genruntimeconfig.cache
