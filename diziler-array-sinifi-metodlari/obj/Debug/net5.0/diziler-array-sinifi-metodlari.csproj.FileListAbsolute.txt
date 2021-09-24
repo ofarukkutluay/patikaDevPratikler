@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\bin\Debug\net5.0\diziler-array-sinifi-metodlari.exe
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\bin\Debug\net5.0\diziler-array-sinifi-metodlari.deps.json
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\bin\Debug\net5.0\diziler-array-sinifi-metodlari.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\bin\Debug\net5.0\diziler-array-sinifi-metodlari.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\bin\Debug\net5.0\diziler-array-sinifi-metodlari.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\bin\Debug\net5.0\ref\diziler-array-sinifi-metodlari.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\bin\Debug\net5.0\diziler-array-sinifi-metodlari.pdb
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\ref\diziler-array-sinifi-metodlari.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.pdb
+E:\Projects\CSharp\patikaDevPratikler\diziler-array-sinifi-metodlari\obj\Debug\net5.0\diziler-array-sinifi-metodlari.genruntimeconfig.cache
