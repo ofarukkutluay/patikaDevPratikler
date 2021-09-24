@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\diziler\bin\Debug\net5.0\diziler.exe
+E:\Projects\CSharp\patikaDevPratikler\diziler\bin\Debug\net5.0\diziler.deps.json
+E:\Projects\CSharp\patikaDevPratikler\diziler\bin\Debug\net5.0\diziler.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\diziler\bin\Debug\net5.0\diziler.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\diziler\bin\Debug\net5.0\diziler.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler\bin\Debug\net5.0\ref\diziler.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler\bin\Debug\net5.0\diziler.pdb
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\ref\diziler.dll
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.pdb
+E:\Projects\CSharp\patikaDevPratikler\diziler\obj\Debug\net5.0\diziler.genruntimeconfig.cache
