@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\bin\Debug\net5.0\hazir-metotlar-datetime-math.exe
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\bin\Debug\net5.0\hazir-metotlar-datetime-math.deps.json
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\bin\Debug\net5.0\hazir-metotlar-datetime-math.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\bin\Debug\net5.0\hazir-metotlar-datetime-math.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\bin\Debug\net5.0\hazir-metotlar-datetime-math.dll
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\bin\Debug\net5.0\ref\hazir-metotlar-datetime-math.dll
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\bin\Debug\net5.0\hazir-metotlar-datetime-math.pdb
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.dll
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\ref\hazir-metotlar-datetime-math.dll
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.pdb
+E:\Projects\CSharp\patikaDevPratikler\hazir-metotlar-datetime-math\obj\Debug\net5.0\hazir-metotlar-datetime-math.genruntimeconfig.cache
