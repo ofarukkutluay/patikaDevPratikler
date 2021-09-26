@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\bin\Debug\net5.0\metotlar-overloading.exe
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\bin\Debug\net5.0\metotlar-overloading.deps.json
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\bin\Debug\net5.0\metotlar-overloading.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\bin\Debug\net5.0\metotlar-overloading.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\bin\Debug\net5.0\metotlar-overloading.dll
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\bin\Debug\net5.0\ref\metotlar-overloading.dll
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\bin\Debug\net5.0\metotlar-overloading.pdb
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.dll
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\ref\metotlar-overloading.dll
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.pdb
+E:\Projects\CSharp\patikaDevPratikler\metotlar-overloading\obj\Debug\net5.0\metotlar-overloading.genruntimeconfig.cache
