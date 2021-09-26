@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\bin\Debug\net5.0\recursive-extension-metotlar.exe
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\bin\Debug\net5.0\recursive-extension-metotlar.deps.json
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\bin\Debug\net5.0\recursive-extension-metotlar.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\bin\Debug\net5.0\recursive-extension-metotlar.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\bin\Debug\net5.0\recursive-extension-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\bin\Debug\net5.0\ref\recursive-extension-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\bin\Debug\net5.0\recursive-extension-metotlar.pdb
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\ref\recursive-extension-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.pdb
+E:\Projects\CSharp\patikaDevPratikler\recursive-extension-metotlar\obj\Debug\net5.0\recursive-extension-metotlar.genruntimeconfig.cache
