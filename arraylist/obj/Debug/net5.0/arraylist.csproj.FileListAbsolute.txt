@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\arraylist\bin\Debug\net5.0\arraylist.exe
+E:\Projects\CSharp\patikaDevPratikler\arraylist\bin\Debug\net5.0\arraylist.deps.json
+E:\Projects\CSharp\patikaDevPratikler\arraylist\bin\Debug\net5.0\arraylist.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\arraylist\bin\Debug\net5.0\arraylist.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\arraylist\bin\Debug\net5.0\arraylist.dll
+E:\Projects\CSharp\patikaDevPratikler\arraylist\bin\Debug\net5.0\ref\arraylist.dll
+E:\Projects\CSharp\patikaDevPratikler\arraylist\bin\Debug\net5.0\arraylist.pdb
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.dll
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\ref\arraylist.dll
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.pdb
+E:\Projects\CSharp\patikaDevPratikler\arraylist\obj\Debug\net5.0\arraylist.genruntimeconfig.cache
