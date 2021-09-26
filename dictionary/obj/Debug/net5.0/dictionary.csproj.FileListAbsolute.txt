@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\dictionary\bin\Debug\net5.0\dictionary.exe
+E:\Projects\CSharp\patikaDevPratikler\dictionary\bin\Debug\net5.0\dictionary.deps.json
+E:\Projects\CSharp\patikaDevPratikler\dictionary\bin\Debug\net5.0\dictionary.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\dictionary\bin\Debug\net5.0\dictionary.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\dictionary\bin\Debug\net5.0\dictionary.dll
+E:\Projects\CSharp\patikaDevPratikler\dictionary\bin\Debug\net5.0\ref\dictionary.dll
+E:\Projects\CSharp\patikaDevPratikler\dictionary\bin\Debug\net5.0\dictionary.pdb
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.dll
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\ref\dictionary.dll
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.pdb
+E:\Projects\CSharp\patikaDevPratikler\dictionary\obj\Debug\net5.0\dictionary.genruntimeconfig.cache
