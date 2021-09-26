@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\bin\Debug\net5.0\odev-1-1.exe
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\bin\Debug\net5.0\odev-1-1.deps.json
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\bin\Debug\net5.0\odev-1-1.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\bin\Debug\net5.0\odev-1-1.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\bin\Debug\net5.0\odev-1-1.dll
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\bin\Debug\net5.0\ref\odev-1-1.dll
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\bin\Debug\net5.0\odev-1-1.pdb
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.dll
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\ref\odev-1-1.dll
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.pdb
+E:\Projects\CSharp\patikaDevPratikler\odev-1\odev-1-1\obj\Debug\net5.0\odev-1-1.genruntimeconfig.cache
