@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\bin\Debug\net5.0\kurucu-metotlar.exe
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\bin\Debug\net5.0\kurucu-metotlar.deps.json
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\bin\Debug\net5.0\kurucu-metotlar.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\bin\Debug\net5.0\kurucu-metotlar.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\bin\Debug\net5.0\kurucu-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\bin\Debug\net5.0\ref\kurucu-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\bin\Debug\net5.0\kurucu-metotlar.pdb
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\ref\kurucu-metotlar.dll
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.pdb
+E:\Projects\CSharp\patikaDevPratikler\kurucu-metotlar\obj\Debug\net5.0\kurucu-metotlar.genruntimeconfig.cache
