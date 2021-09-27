@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\bin\Debug\net5.0\encapsulation.exe
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\bin\Debug\net5.0\encapsulation.deps.json
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\bin\Debug\net5.0\encapsulation.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\bin\Debug\net5.0\encapsulation.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\bin\Debug\net5.0\encapsulation.dll
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\bin\Debug\net5.0\ref\encapsulation.dll
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\bin\Debug\net5.0\encapsulation.pdb
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.dll
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\ref\encapsulation.dll
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.pdb
+E:\Projects\CSharp\patikaDevPratikler\encapsulation\obj\Debug\net5.0\encapsulation.genruntimeconfig.cache
