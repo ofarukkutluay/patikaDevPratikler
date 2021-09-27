@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\bin\Debug\net5.0\csharp-enum.exe
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\bin\Debug\net5.0\csharp-enum.deps.json
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\bin\Debug\net5.0\csharp-enum.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\bin\Debug\net5.0\csharp-enum.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\bin\Debug\net5.0\csharp-enum.dll
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\bin\Debug\net5.0\ref\csharp-enum.dll
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\bin\Debug\net5.0\csharp-enum.pdb
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.dll
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\ref\csharp-enum.dll
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.pdb
+E:\Projects\CSharp\patikaDevPratikler\csharp-enum\obj\Debug\net5.0\csharp-enum.genruntimeconfig.cache
