@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\bin\Debug\net5.0\sinif-kavrami.exe
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\bin\Debug\net5.0\sinif-kavrami.deps.json
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\bin\Debug\net5.0\sinif-kavrami.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\bin\Debug\net5.0\sinif-kavrami.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\bin\Debug\net5.0\sinif-kavrami.dll
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\bin\Debug\net5.0\ref\sinif-kavrami.dll
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\bin\Debug\net5.0\sinif-kavrami.pdb
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.dll
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\ref\sinif-kavrami.dll
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.pdb
+E:\Projects\CSharp\patikaDevPratikler\sinif-kavrami\obj\Debug\net5.0\sinif-kavrami.genruntimeconfig.cache
