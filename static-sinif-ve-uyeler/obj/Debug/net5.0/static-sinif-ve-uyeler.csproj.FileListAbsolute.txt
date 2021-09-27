@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\bin\Debug\net5.0\static-sinif-ve-uyeler.exe
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\bin\Debug\net5.0\static-sinif-ve-uyeler.deps.json
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\bin\Debug\net5.0\static-sinif-ve-uyeler.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\bin\Debug\net5.0\static-sinif-ve-uyeler.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\bin\Debug\net5.0\static-sinif-ve-uyeler.dll
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\bin\Debug\net5.0\ref\static-sinif-ve-uyeler.dll
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\bin\Debug\net5.0\static-sinif-ve-uyeler.pdb
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.dll
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\ref\static-sinif-ve-uyeler.dll
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.pdb
+E:\Projects\CSharp\patikaDevPratikler\static-sinif-ve-uyeler\obj\Debug\net5.0\static-sinif-ve-uyeler.genruntimeconfig.cache
