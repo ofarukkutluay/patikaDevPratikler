@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "proje-1-console-telefon-rehberi-uygulamasi/1.0.0": {
+        "runtime": {
+          "proje-1-console-telefon-rehberi-uygulamasi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "proje-1-console-telefon-rehberi-uygulamasi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

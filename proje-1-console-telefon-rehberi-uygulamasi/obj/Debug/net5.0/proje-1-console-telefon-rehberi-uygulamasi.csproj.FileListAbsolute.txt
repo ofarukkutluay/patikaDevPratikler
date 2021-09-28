@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\bin\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.exe
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\bin\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.deps.json
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\bin\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\bin\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\bin\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\bin\Debug\net5.0\ref\proje-1-console-telefon-rehberi-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\bin\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.pdb
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\ref\proje-1-console-telefon-rehberi-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.pdb
+E:\Projects\CSharp\patikaDevPratikler\proje-1-console-telefon-rehberi-uygulamasi\obj\Debug\net5.0\proje-1-console-telefon-rehberi-uygulamasi.genruntimeconfig.cache
