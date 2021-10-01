@@ -5,37 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (console)",
+            "name": "Telefon Rehberi Uygulamasi (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "stopAtEntry": false,
-            "console": "internalConsole"
-        },
-        {
-            "name": "hata-yonetimi (console)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/hata-yonetimi/bin/Debug/net5.0/hata-yonetimi.dll",
+            "program": "${workspaceFolder}/proje-1-console-telefon-rehberi-uygulamasi/bin/Debug/net5.0/proje-1-console-telefon-rehberi-uygulamasi.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
             "console": "integratedTerminal"
         },
         {
-            "name": "console-programlama (console)",
+            "name": "ToDo Uygulaması (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/console-programlama/bin/Debug/net5.0/console-programlama.dll",
+            "program": "${workspaceFolder}/proje-2-console-todo-uygulamasi/bin/Debug/net5.0/proje-2-console-todo-uygulamasi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/console-programlama",
-            "console": "internalConsole",
-            "stopAtEntry": false
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
         },
         {
             "name": ".NET Core Attach",

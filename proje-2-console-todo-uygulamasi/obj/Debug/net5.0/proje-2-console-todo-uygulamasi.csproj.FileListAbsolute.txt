@@ -1,0 +1,16 @@
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\bin\Debug\net5.0\proje-2-console-todo-uygulamasi.exe
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\bin\Debug\net5.0\proje-2-console-todo-uygulamasi.deps.json
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\bin\Debug\net5.0\proje-2-console-todo-uygulamasi.runtimeconfig.json
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\bin\Debug\net5.0\proje-2-console-todo-uygulamasi.runtimeconfig.dev.json
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\bin\Debug\net5.0\proje-2-console-todo-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\bin\Debug\net5.0\ref\proje-2-console-todo-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\bin\Debug\net5.0\proje-2-console-todo-uygulamasi.pdb
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.csproj.AssemblyReference.cache
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.AssemblyInfoInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.AssemblyInfo.cs
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.csproj.CoreCompileInputs.cache
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\ref\proje-2-console-todo-uygulamasi.dll
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.pdb
+E:\Projects\CSharp\patikaDevPratikler\proje-2-console-todo-uygulamasi\obj\Debug\net5.0\proje-2-console-todo-uygulamasi.genruntimeconfig.cache
