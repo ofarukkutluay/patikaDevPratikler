@@ -1,25 +1,28 @@
 
-
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using WebApi.Common;
 using WebApi.DbOperations;
 
-namespace WebApi.BookOperations.GetBook
+namespace WebApi.BookOperations.GetBookDetail
 {
-    public class GetBookQuery
+    public class GetBookDetailQuery
     {
         public int BookId { get; set; }
         private readonly BookStoreDbContext _dbContext;
-        public GetBookQuery(BookStoreDbContext dbContext)
+        public GetBookDetailQuery(BookStoreDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public BooksViewModel Handle()
+        public BooksDetailViewModel Handle()
         {
             var book = _dbContext.Books.Where(x => x.Id == BookId).SingleOrDefault();
-            BooksViewModel vm = new BooksViewModel
+            if(book is null)
+                throw new InvalidOperationException("Kayıt bulunamadı!");
+                
+            BooksDetailViewModel vm = new BooksDetailViewModel
             {
                 Title = book.Title,
                 PageCount = book.PageCount,
@@ -31,7 +34,7 @@ namespace WebApi.BookOperations.GetBook
         }
     }
 
-    public class BooksViewModel
+    public class BooksDetailViewModel
     {
         public string Title { get; set; }
         public int PageCount { get; set; }
