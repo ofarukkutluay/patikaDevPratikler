@@ -9,6 +9,8 @@ using WebApi.BookOperations.UpdateBook;
 using WebApi.BookOperations.GetBookDetail;
 using WebApi.BookOperations.RemoveBook;
 using AutoMapper;
+using FluentValidation.Results;
+using FluentValidation;
 
 namespace WebApi.Controllers
 {
@@ -67,6 +69,8 @@ namespace WebApi.Controllers
             try
             {
                 query.BookId = id;
+                GetBookDetailQueryValidator validator = new GetBookDetailQueryValidator();
+                validator.ValidateAndThrow(query);
                 var result = query.Handle();
                 return Ok(result);
             }
@@ -91,7 +95,24 @@ namespace WebApi.Controllers
             try
             {
                 command.Model = newBook;
+                CreateBookCommandValidator validator = new CreateBookCommandValidator();
+                // ValidationResult result = validator.Validate(command);
+                // if (!result.IsValid)
+                // {
+                    
+                //     foreach (var item in result.Errors)
+                //     {
+                //         Console.WriteLine($"Özellik : {item.PropertyName} - Error Message: {item.ErrorMessage} ");
+                //     }
+                //     return BadRequest(result);
+                // }else
+                // {
+                //     command.Handle();
+                // }
+
+                validator.ValidateAndThrow(command);
                 command.Handle();
+                
             }
             catch (Exception ex)
             {
@@ -108,6 +129,8 @@ namespace WebApi.Controllers
             {
                 command.BookId = id;
                 command.Model = updatedBook;
+                UpdateBookCommandValidator validator = new UpdateBookCommandValidator();
+                validator.ValidateAndThrow(command);
                 command.Handle();
             }
             catch (Exception ex)
@@ -124,6 +147,8 @@ namespace WebApi.Controllers
             try
             {
                 command.BookId = id;
+                RemoveBookCommandValidator validator = new RemoveBookCommandValidator();
+                validator.ValidateAndThrow(command);
                 command.Handle();
             }
             catch (Exception ex)
