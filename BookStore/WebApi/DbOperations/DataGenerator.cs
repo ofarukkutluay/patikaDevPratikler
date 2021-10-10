@@ -29,6 +29,24 @@ namespace WebApi.DbOperations
                     }
                 );
 
+                context.Authors.AddRange(
+                    new Author{
+                        FirstName = "Yazar",
+                        LastName = "YazarSoyadı",
+                        DayOfBirth = new DateTime(1993, 06, 12)
+                    },
+                    new Author{
+                        FirstName = "Yazar2",
+                        LastName = "Yazar2Soyadı",
+                        DayOfBirth = new DateTime(1890, 01, 21)
+                    },
+                    new Author{
+                        FirstName = "Yazar3",
+                        LastName = "Yazar3Soyadı",
+                        DayOfBirth = new DateTime(2001, 04, 30)
+                    }
+                );
+
                 context.Books.AddRange(
                     new Book
                     {
@@ -36,7 +54,8 @@ namespace WebApi.DbOperations
                         Title = "Lean Startup",
                         GenreId = 1,
                         PageCount = 200,
-                        PublishDate = new DateTime(2001, 06, 12)
+                        PublishDate = new DateTime(2001, 06, 12),
+                        AuthorId =1
                     },
                     new Book
                     {
@@ -44,7 +63,8 @@ namespace WebApi.DbOperations
                         Title = "Herland",
                         GenreId = 2,
                         PageCount = 250,
-                        PublishDate = new DateTime(2010, 05, 23)
+                        PublishDate = new DateTime(2010, 05, 23),
+                        AuthorId =3
                     },
                     new Book
                     {
@@ -52,7 +72,8 @@ namespace WebApi.DbOperations
                         Title = "Dune",
                         GenreId = 2,
                         PageCount = 540,
-                        PublishDate = new DateTime(2001, 12, 21)
+                        PublishDate = new DateTime(2001, 12, 21),
+                        AuthorId =2
                     }
                 );
 
