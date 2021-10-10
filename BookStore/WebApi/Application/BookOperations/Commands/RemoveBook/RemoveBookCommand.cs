@@ -6,7 +6,7 @@ using System.Linq;
 using WebApi.Common;
 using WebApi.DbOperations;
 
-namespace WebApi.BookOperations.RemoveBook
+namespace WebApi.Application.BookOperations.Commands.RemoveBook
 {
     public class RemoveBookCommand
     {
