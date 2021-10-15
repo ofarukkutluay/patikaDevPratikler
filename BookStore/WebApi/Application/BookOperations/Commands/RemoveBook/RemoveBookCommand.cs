@@ -11,8 +11,8 @@ namespace WebApi.Application.BookOperations.Commands.RemoveBook
     public class RemoveBookCommand
     {
         public int BookId {get;set;}
-        private readonly BookStoreDbContext _dbContext;
-        public RemoveBookCommand(BookStoreDbContext dbContext)
+        private readonly IBookStoreDbContext _dbContext;
+        public RemoveBookCommand(IBookStoreDbContext dbContext)
         {
             _dbContext = dbContext;
         }
