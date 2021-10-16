@@ -21,7 +21,7 @@ namespace WebApi.Application.GenreOperations.Commands.UpdateGenre
             if (genre is null)
                 throw new InvalidOperationException("Kitap türü bulunamadı!");
             if (_dbContext.Genres.Any(x => x.Name.ToLower() == Model.Name.ToLower() && x.Id != GenreId))
-                throw new InvalidOperationException("Aynı isimde bir kitap türü zten mevcut!");
+                throw new InvalidOperationException("Aynı isimde bir kitap türü zaten mevcut!");
 
             genre.Name = !string.IsNullOrEmpty(Model.Name.Trim()) ? Model.Name : genre.Name;
             genre.IsActive = Model.IsActive;
