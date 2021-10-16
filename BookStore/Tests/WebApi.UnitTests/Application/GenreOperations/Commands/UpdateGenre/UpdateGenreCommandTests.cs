@@ -34,15 +34,17 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Commands.UpdateGenr
 
             FluentActions
                 .Invoking(() => command.Handle())
-                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Aynı isimde bir kitap türü zaten mevcut!");
+                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap türü bulunamadı!");
         }
 
         [Fact]
         public void WhenValidInputAreGiven_Genre_ShouldBeUpdated()
         {
             //arrange (Hazırlık)
+            int updateGenreId = _context.Genres.ToList().Last().Id;
             UpdateGenreCommand command = new UpdateGenreCommand(_context);
             var model = new UpdateGenreModel() { Name="title" };
+            command.GenreId = updateGenreId;
             command.Model = model;
 
             //act (Çalıştırma) 
@@ -52,10 +54,10 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Commands.UpdateGenr
                 .Invoke();
 
             //assert (Doğrulama)
-            var Genre = _context.Genres.SingleOrDefault(Genre => Genre.Name == model.Name);
-            Genre.Should().NotBeNull();
-            Genre.Name.Should().Be(model.Name);
-            Genre.IsActive.Should().Be(model.IsActive);
+            var genre = _context.Genres.SingleOrDefault(genre => genre.Name == model.Name);
+            genre.Should().NotBeNull();
+            genre.Name.Should().Be(model.Name);
+            genre.IsActive.Should().Be(model.IsActive);
 
         }
     }

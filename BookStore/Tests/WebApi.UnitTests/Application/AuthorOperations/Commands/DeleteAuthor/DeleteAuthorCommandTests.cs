@@ -39,11 +39,11 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.DeleteAut
         public void WhenValidInputAreGiven_Author_ShouldBeDeleted()
         {
             //arrange (Hazırlık)
-            var author = new Author { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.Date.AddYears(-10) };
+            var author = new Author { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.AddYears(-10).Date };
             _context.Authors.Add(author);
             _context.SaveChanges();
 
-            var maxAuthorId = _context.Authors.SingleOrDefault(x=>x.FullName == author.FullName).Id;
+            var maxAuthorId = _context.Authors.SingleOrDefault(x=>x.FirstName == author.FirstName).Id;
             
             DeleteAuthorCommand command = new DeleteAuthorCommand(_context);
             command.AuthorId = maxAuthorId;
@@ -55,7 +55,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.DeleteAut
                 .Invoke();
 
             //assert (Doğrulama)
-            var searchAuthor = _context.Authors.SingleOrDefault(Author => Author.Id == maxAuthorId);
+            var searchAuthor = _context.Authors.FirstOrDefault(Author => Author.Id == maxAuthorId);
             searchAuthor.Should().BeNull();
         }
     }

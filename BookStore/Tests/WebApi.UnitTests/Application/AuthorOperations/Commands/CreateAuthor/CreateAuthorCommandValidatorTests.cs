@@ -12,9 +12,9 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.CreateAut
     public class CreateAuthorCommandValidatorTests : IClassFixture<CommonTestFixture>
     {
         [Theory]
-        [InlineData("Lo","lo")]
+        [InlineData("Lo","l")]
         [InlineData("","")]
-        [InlineData("loo","lo")]
+        [InlineData("loo","l")]
         [InlineData("l","looo")]
         public void WhenInvalidInputAreGiven_Validator_ShouldBeReturnErrors(string firstName,string lastName)
         {

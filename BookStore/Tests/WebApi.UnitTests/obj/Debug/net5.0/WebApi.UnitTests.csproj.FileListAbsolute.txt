@@ -22,11 +22,17 @@ E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Castle.Core.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\FluentAssertions.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\FluentValidation.dll
+E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.OpenApi.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -42,6 +48,7 @@ E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\xunit.abstractions.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\xunit.assert.dll
@@ -125,10 +132,3 @@ E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\obj\Debug
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\obj\Debug\net5.0\ref\WebApi.UnitTests.dll
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\obj\Debug\net5.0\WebApi.UnitTests.pdb
 E:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\obj\Debug\net5.0\WebApi.UnitTests.genruntimeconfig.cache
-e:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-e:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-e:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-e:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-e:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-e:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-e:\Projects\CSharp\patikaDevPratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll

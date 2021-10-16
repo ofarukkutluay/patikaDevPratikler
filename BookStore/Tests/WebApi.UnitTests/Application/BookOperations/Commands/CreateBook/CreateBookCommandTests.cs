@@ -25,12 +25,12 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.CreateBook
         public void WhenAlreadyExistBookTitleIsGiven_InvalidOperationException_ShouldBeReturn()
         {
             //arrange (Hazırlık)
-            var book = new Book { Title = "Test_WhenAlreadyExistBookTitleIsGiven_InvalidOperationException_ShouldBeReturn", PageCount = 100, PublishDate = new DateTime(1990, 01, 10), GenreId = 1, AuthorId = 1 };
+            var book = new Book { Title = "Test_WhenAlreadyExistBookTitleIsGiven_InvalidOperationException_ShouldBeReturn", PageCount = 100, PublishDate = DateTime.Now.AddYears(-10).Date, GenreId = 1, AuthorId = 1 };
             _context.Books.Add(book);
             _context.SaveChanges();
 
             CreateBookCommand command = new CreateBookCommand(_context, _mapper);
-            command.Model = new CreateBookModel() { Title = book.Title };
+            command.Model = new CreateBookModel() { Title = book.Title ,PageCount=book.PageCount,AuthorId=book.AuthorId,GenreId=book.GenreId,PublishDate=book.PublishDate};
 
             //act (Çalıştırma) && //assert (Doğrulama)
 
@@ -54,7 +54,7 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.CreateBook
                 .Invoke();
 
             //assert (Doğrulama)
-            var book = _context.Books.SingleOrDefault(book => book.Title == model.Title);
+            var book = _context.Books.FirstOrDefault(book => book.Title == model.Title);
             book.Should().NotBeNull();
             book.PageCount.Should().Be(model.PageCount);
             book.PublishDate.Should().Be(model.PublishDate);

@@ -25,18 +25,18 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.CreateAut
         public void WhenAlreadyExistAuthorNameIsGiven_InvalidOperationException_ShouldBeReturn()
         {
             //arrange (Hazırlık)
-            var author = new Author { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.Date.AddYears(-10)};
+            var author = new Author { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.AddYears(-10).Date};
             _context.Authors.Add(author);
             _context.SaveChanges();
 
             CreateAuthorCommand command = new CreateAuthorCommand(_context,_mapper);
-            command.Model = new CreateAuthorModel() { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.Date.AddYears(-10) };
+            command.Model = new CreateAuthorModel() { FirstName=author.FirstName,LastName=author.LastName,DayOfBirth=author.DayOfBirth };
 
             //act (Çalıştırma) && //assert (Doğrulama)
 
             FluentActions
                 .Invoking(() => command.Handle())
-                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Yazar Zaten Mevcut!");
+                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Yazar zaten mevcut!");
         }
 
         [Fact]
@@ -44,7 +44,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.CreateAut
         {
             //arrange (Hazırlık)
             CreateAuthorCommand command = new CreateAuthorCommand(_context,_mapper);
-            var model = new CreateAuthorModel() { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.Date.AddYears(-10) };
+            var model = new CreateAuthorModel() { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.AddYears(-10).Date };
             command.Model = model;
 
             //act (Çalıştırma) 
@@ -54,7 +54,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.CreateAut
                 .Invoke();
 
             //assert (Doğrulama)
-            var author = _context.Authors.SingleOrDefault(Author => Author.FirstName == model.FirstName);
+            var author = _context.Authors.FirstOrDefault(author => author.FirstName == model.FirstName);
             author.Should().NotBeNull();
             author.FirstName.Should().Be(model.FirstName);
             author.LastName.Should().Be(model.LastName);

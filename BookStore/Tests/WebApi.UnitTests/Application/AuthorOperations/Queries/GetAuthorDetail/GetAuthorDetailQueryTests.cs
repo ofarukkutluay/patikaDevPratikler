@@ -29,7 +29,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Queries.GetAuthorD
             Author model = new Author { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.Date.AddYears(-10) };
             _context.Authors.Add(model);
             _context.SaveChanges();
-            int AuthorId = _context.Authors.FirstOrDefault(x => x.FullName == model.FullName).Id;
+            int AuthorId = _context.Authors.FirstOrDefault(x => x.FirstName == model.FirstName).Id;
 
             GetAuthorDetailQuery query = new GetAuthorDetailQuery(_context, _mapper);
             query.AuthorId = AuthorId;
@@ -41,7 +41,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Queries.GetAuthorD
                 .Invoke();
 
             //assert (Doğrulama)
-            var searchAuthor = _context.Authors.FirstOrDefault(x => x.FullName == model.FullName);
+            var searchAuthor = _context.Authors.FirstOrDefault(x => x.FirstName == model.FirstName);
             searchAuthor.Should().NotBeNull();
             searchAuthor.FirstName.Should().Be(model.FirstName);
             searchAuthor.LastName.Should().Be(model.LastName);
@@ -53,7 +53,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Queries.GetAuthorD
         public void WhenInvalidInputId_Author_ShouldBeGetDetail()
         {
 
-            int lastAuthorId = _context.Authors.Last().Id;
+            int lastAuthorId = _context.Authors.ToList().Max(x=>x.Id);
 
             GetAuthorDetailQuery query = new GetAuthorDetailQuery(_context, _mapper);
             query.AuthorId = lastAuthorId + 1;

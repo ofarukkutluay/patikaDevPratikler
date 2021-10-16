@@ -18,8 +18,10 @@ namespace WebApi.Application.AuthorOperations.Commands.CreateAuthor
             _mapper = mapper;
         }
         public void Handle(){
-        
-            Author author = _mapper.Map<Author>(Model);
+            Author author = _dbContext.Authors.SingleOrDefault(x=>x.FirstName==Model.FirstName && x.LastName==Model.LastName && x.DayOfBirth==Model.DayOfBirth);
+            if(author is not null)
+                throw new InvalidOperationException("Yazar zaten mevcut!");
+            author = _mapper.Map<Author>(Model);
       
             _dbContext.Authors.Add(author);
             _dbContext.SaveChanges();

@@ -23,7 +23,7 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Commands.DeleteGenr
         public void WhenAlreadyExistGenre_InvalidOperationException_ShouldBeReturn()
         {
             //arrange (Hazırlık)
-            var maxGenreId = _context.Genres.Max(x=> x.Id);
+            var maxGenreId = _context.Genres.ToList().Max(x=> x.Id);
 
             DeleteGenreCommand command = new DeleteGenreCommand(_context);
             command.GenreId = maxGenreId+1;
@@ -32,7 +32,7 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Commands.DeleteGenr
 
             FluentActions
                 .Invoking(() => command.Handle())
-                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kayıt bulunamadı!");
+                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap türü bulunamadı!");
         }
 
         [Fact]
@@ -55,7 +55,7 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Commands.DeleteGenr
                 .Invoke();
 
             //assert (Doğrulama)
-            var searchGenre = _context.Genres.SingleOrDefault(Genre => Genre.Id == maxGenreId);
+            var searchGenre = _context.Genres.FirstOrDefault(Genre => Genre.Id == maxGenreId);
             searchGenre.Should().BeNull();
         }
     }

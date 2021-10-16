@@ -12,17 +12,17 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.UpdateAut
     public class UpdateAuthorCommandValidatorTests : IClassFixture<CommonTestFixture>
     {
         [Theory]
-        [InlineData("Lo","lo",0)]
-        [InlineData("","",1)]
-        [InlineData("loo","lo",0)]
-        [InlineData("l","looo",1)]
+        [InlineData("L","l",0)]
+        [InlineData("","",0)]
+        [InlineData("loo","l",0)]
+        [InlineData("l","looo",0)]
         public void WhenInvalidInputAreGiven_Validator_ShouldBeReturnErrors(string firstName,string lastName,int id)
         {
             //arrange
             UpdateAuthorCommand command = new UpdateAuthorCommand(null);
             command.AuthorId = id;
             command.Model = new UpdateAuthorModel(){
-                FirstName=firstName,LastName=lastName,DayOfBirth=DateTime.Now.Date.AddYears(-10)
+                FirstName=firstName,LastName=lastName,DayOfBirth=DateTime.Now.AddYears(-10).Date
             };  
 
             //act        

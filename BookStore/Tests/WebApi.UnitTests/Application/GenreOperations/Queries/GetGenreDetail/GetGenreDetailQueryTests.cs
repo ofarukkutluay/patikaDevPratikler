@@ -52,7 +52,7 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Queries.GetGenreDet
         public void WhenInvalidInputId_Genre_ShouldBeGetDetail()
         {
 
-            int lastGenreId = _context.Genres.Last().Id;
+            int lastGenreId = _context.Genres.ToList().Last().Id;
 
             GetGenreDetailQuery query = new GetGenreDetailQuery(_context, _mapper);
             query.GenreId = lastGenreId + 1;
@@ -63,7 +63,7 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Queries.GetGenreDet
                 .Invoking(() => query.Handle()).Should()
                 .Throw<InvalidOperationException>().And.Message
                 .Should()
-                .Be("Kayıt bulunamadı!");
+                .Be("Kitap türü bulunamadı!");
         }
 
     }

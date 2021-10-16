@@ -30,6 +30,7 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.UpdateBook
         {
             //arrange
             UpdateBookCommand command = new UpdateBookCommand(null);
+            command.BookId =0;
             command.Model = new UpdateBookModel(){
                 Title = title,
                 PageCount = pageCount,
@@ -50,6 +51,7 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.UpdateBook
         public void WhenDatetimeEqualNowIsGiven_Validator_ShouldBeReturnError(){
             //arrange
             UpdateBookCommand command = new UpdateBookCommand(null);
+            command.BookId=1;
             command.Model = new UpdateBookModel(){
                 Title = "title",
                 PageCount = 100,
@@ -71,6 +73,7 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.UpdateBook
         public void WhenValidInputAreGiven_Validator_ShouldNotReturnError(){
             //arrange
             UpdateBookCommand command = new UpdateBookCommand(null);
+            command.BookId =1;
             command.Model = new UpdateBookModel(){
                 Title = "title",
                 PageCount = 100,

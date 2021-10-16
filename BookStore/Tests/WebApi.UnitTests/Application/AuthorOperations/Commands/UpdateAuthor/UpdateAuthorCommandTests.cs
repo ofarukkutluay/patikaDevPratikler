@@ -23,7 +23,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.UpdateAut
         public void WhenAlreadyExistAuthorTitleIsGiven_InvalidOperationException_ShouldBeReturn()
         {
             //arrange (Hazırlık)
-            var authorId = _context.Authors.Max(x=>x.Id);
+            var authorId = _context.Authors.ToList().Max(x=>x.Id);
 
             UpdateAuthorCommand command = new UpdateAuthorCommand(_context);
             command.AuthorId = authorId+1;
@@ -39,7 +39,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.UpdateAut
         public void WhenValidInputAreGiven_Author_ShouldBeUpdated()
         {
             //arrange (Hazırlık)
-            int lastAuthorId = _context.Authors.Last().Id;
+            int lastAuthorId = _context.Authors.ToList().Last().Id;
             UpdateAuthorCommand command = new UpdateAuthorCommand(_context);
             var model = new UpdateAuthorModel() { FirstName="TestYazar",LastName="TestYazarSoyadı",DayOfBirth=DateTime.Now.Date.AddYears(-10)  };
             command.AuthorId = lastAuthorId;
@@ -52,7 +52,7 @@ namespace Tests.WebApi.UnitTests.Application.AuthorOperations.Commands.UpdateAut
                 .Invoke();
 
             //assert (Doğrulama)
-            var author = _context.Authors.SingleOrDefault(author => author.Id == lastAuthorId);
+            var author = _context.Authors.FirstOrDefault(author => author.Id == lastAuthorId);
             author.Should().NotBeNull();
             author.FirstName.Should().Be(model.FirstName);
             author.LastName.Should().Be(model.LastName);

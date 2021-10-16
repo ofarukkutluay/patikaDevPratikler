@@ -23,7 +23,7 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.RemoveBook
         public void WhenAlreadyExistBook_InvalidOperationException_ShouldBeReturn()
         {
             //arrange (Hazırlık)
-            var maxBookId = _context.Books.Max(x=> x.Id);
+            var maxBookId = _context.Books.ToList().Max(x=> x.Id);
 
             RemoveBookCommand command = new RemoveBookCommand(_context);
             command.BookId = maxBookId+1;
@@ -43,7 +43,7 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.RemoveBook
             _context.Books.Add(book);
             _context.SaveChanges();
 
-            var maxBookId = _context.Books.SingleOrDefault(x=>x.Title == book.Title).Id;
+            int maxBookId = _context.Books.SingleOrDefault(x=>x.Title == book.Title).Id;
             
             RemoveBookCommand command = new RemoveBookCommand(_context);
             command.BookId = maxBookId;

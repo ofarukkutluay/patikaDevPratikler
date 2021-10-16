@@ -36,7 +36,7 @@ namespace Tests.WebApi.UnitTests.Application.GenreOperations.Commands.CreateGenr
 
             FluentActions
                 .Invoking(() => command.Handle())
-                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap Zaten Mevcut!");
+                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap türü zaten mevcut");
         }
 
         [Fact]

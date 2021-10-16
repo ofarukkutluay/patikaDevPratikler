@@ -34,15 +34,17 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.UpdateBook
 
             FluentActions
                 .Invoking(() => command.Handle())
-                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap Zaten Mevcut!");
+                .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kayıt bulunamadı!");
         }
 
         [Fact]
         public void WhenValidInputAreGiven_Book_ShouldBeUpdated()
         {
             //arrange (Hazırlık)
+            int bookId = _context.Books.ToList().Max(x=>x.Id);
             UpdateBookCommand command = new UpdateBookCommand(_context);
-            var model = new UpdateBookModel() { Title = "hobbit", PageCount = 100, PublishDate = DateTime.Now.Date.AddYears(-10), AuthorId = 1, GenreId = 1 };
+            var model = new UpdateBookModel() { Title = "hobbit", PageCount = 100, PublishDate = DateTime.Now.AddYears(-10).Date, AuthorId = 1, GenreId = 1 };
+            command.BookId =bookId;
             command.Model = model;
 
             //act (Çalıştırma) 
@@ -52,7 +54,7 @@ namespace Tests.WebApi.UnitTests.Application.BookOperations.Commands.UpdateBook
                 .Invoke();
 
             //assert (Doğrulama)
-            var book = _context.Books.SingleOrDefault(book => book.Title == model.Title);
+            var book = _context.Books.FirstOrDefault(book => book.Title == model.Title);
             book.Should().NotBeNull();
             book.PageCount.Should().Be(model.PageCount);
             book.PublishDate.Should().Be(model.PublishDate);
