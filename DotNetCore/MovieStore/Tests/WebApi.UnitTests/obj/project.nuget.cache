@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NLMQ5EF5M0i+nRF4H+CuMjHoSIadyLYscfYbX3oW2vh5QHOizvkyChfl0XXqmmgDRxu7OAtDL+Y6q/5QugvejQ==",
+  "dgSpecHash": "XoYZA5IKiW78qZlZZDNt/QlkLKGDKlgU+19HUh/GooQLNF5QZlo41d7BNrgpBYtGnEbehQrQhIZYKQU3q4eNiw==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+  "projectFilePath": "e:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ofaru\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ofaru\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

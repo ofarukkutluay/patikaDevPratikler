@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj": {}
+    "e:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj": {
+    "e:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "e:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "E:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj",
+        "projectPath": "e:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ofaru\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\obj\\",
+        "outputPath": "e:\\Projects\\CSharp\\patikaDevPratikler\\DotNetCore\\MovieStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ofaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
