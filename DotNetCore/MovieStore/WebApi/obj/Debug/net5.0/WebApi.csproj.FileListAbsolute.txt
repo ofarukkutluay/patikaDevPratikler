@@ -41,10 +41,11 @@ E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
-E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\staticwebassets\WebApi.StaticWebAssets.xml
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\scopedcss\bundle\WebApi.styles.css
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.RazorTargetAssemblyInfo.cache
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.dll
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.pdb
 E:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+e:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\bin\Debug\net5.0\WebApi.StaticWebAssets.xml
+e:\Projects\CSharp\patikaDevPratikler\DotNetCore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.CopyComplete
