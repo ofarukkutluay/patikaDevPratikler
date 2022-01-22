@@ -9,6 +9,7 @@ public class Main {
         System.out.print("Eleman sayısını giriniz : ");
         int n = in.nextInt();
 
+
         int x =0;
         int y= 1;
         while(n>=0){
@@ -17,6 +18,8 @@ public class Main {
             x = y-x;
             n--;
         }
+
+
 
     }
 }
