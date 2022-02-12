@@ -19,7 +19,7 @@ public class AccountManager {
     public TreeSet<Account> getAll(){
         return accounts;
     }
-    public Account login(String email,String password) throws InvalidAuthenticationException {
+    public Account login(String email,String password) {
         for (Account account:accounts) {
             if (account.getUser().getEmail().equals(email)){
                 try{
