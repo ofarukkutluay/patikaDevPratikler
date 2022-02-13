@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2d04997-707b-43d8-a36f-77a36b60b39e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/.idea/libraries/mysql_connector_java_8_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/mysql-connector-java-8.0.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/patika-dev-klonu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Helper/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Helper/DbConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Helper/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Helper/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Model/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Model/Patika.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/EducatorGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/EducatorGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/LoginGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/LoginGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/OperatorGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/OperatorGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/StudentGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/StudentGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/UpdatePatikaGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/com/patikadev/View/UpdatePatikaGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patika-dev-klonu/src/patikaLogo.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="254UAvMog6wmCy9Y1vR3l7qkaTS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2d04997-707b-43d8-a36f-77a36b60b39e" name="Changes" comment="" />
+      <created>1644785713876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644785713876</updated>
+      <workItem from="1644785715030" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
