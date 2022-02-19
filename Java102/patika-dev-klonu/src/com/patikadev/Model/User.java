@@ -177,6 +177,12 @@ public class User {
                     case "operator":
                         obj = new Operator();
                         break;
+                    case "educator":
+                        obj = new Educator();
+                        break;
+                    case "student":
+                        obj = new Student();
+                        break;
                     default:
                         obj = new User();
                 }

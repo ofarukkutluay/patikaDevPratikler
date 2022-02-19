@@ -102,7 +102,6 @@ public class Course {
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-
         return courseList;
     }
 
@@ -144,6 +143,7 @@ public class Course {
         return courseList;
     }
 
+
     public static boolean delete(int id) {
         String query = "DELETE FROM course WHERE id= ?";
         try {
@@ -156,6 +156,32 @@ public class Course {
             System.out.println(e.getMessage());
         }
         return true;
+    }
+
+    public static Course getFetch(int id){
+        Course obj = null;
+        String query = "SELECT * FROM course WHERE id = ?";
+        try {
+            PreparedStatement pr = DbConnector.getInstance().prepareStatement(query);
+            pr.setInt(1,id);
+            ResultSet rs = pr.executeQuery();
+            while(rs.next()){
+                int course_id = rs.getInt("id");
+                int user_id = rs.getInt("user_id");
+                int patika_id = rs.getInt("patika_id");
+                String name= rs.getString("name");
+                String lang = rs.getString("lang");
+                obj = new Course(course_id,user_id,patika_id,name,lang);
+                break;
+            }
+            pr.close();
+            rs.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+
+        return obj;
     }
 
 

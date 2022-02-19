@@ -2,13 +2,17 @@ package com.patikadev.View;
 
 import com.patikadev.Helper.Config;
 import com.patikadev.Helper.Helper;
+import com.patikadev.Model.Student;
 
 import javax.swing.*;
 
 public class StudentGUI extends JFrame{
     private JPanel wrapper;
 
-    public StudentGUI(){
+    private Student student;
+    public StudentGUI(Student student){
+        this.student = student;
+
         Helper.setLayout();
         add(wrapper);
         setSize(400,400);
