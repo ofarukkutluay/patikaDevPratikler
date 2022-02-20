@@ -18,6 +18,7 @@ public class LoginGUI extends JFrame{
     private JTextField fld_user_uname;
     private JPasswordField fld_user_pass;
     private JButton btn_login;
+    private JButton btn_user_register;
 
     public LoginGUI(){
         Helper.setLayout();
@@ -52,6 +53,13 @@ public class LoginGUI extends JFrame{
                         dispose();
                     }
                 }
+            }
+        });
+        btn_user_register.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                RegisterGUI registerGUI = new RegisterGUI();
+                dispose();
             }
         });
     }

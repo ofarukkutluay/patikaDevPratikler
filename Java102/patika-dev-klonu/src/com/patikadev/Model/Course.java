@@ -131,7 +131,29 @@ public class Course {
             Statement st = DbConnector.getInstance().createStatement();
             ResultSet rs = st.executeQuery(query);
             while(rs.next()){
-                obj = new Course(rs.getInt("id"),rs.getInt("user_id"),rs.getInt("patika_id"),rs.getString("name"),rs.getString("lang"));
+                obj = new Course(rs.getInt("id"),rs.getInt("user_id"),
+                        rs.getInt("patika_id"),rs.getString("name"),rs.getString("lang"));
+                courseList.add(obj);
+            }
+            st.close();
+            rs.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+        return courseList;
+    }
+
+    public static ArrayList<Course> getListByPatikaId(int patika_id){
+        ArrayList<Course> courseList = new ArrayList<>();
+        String query = "SELECT * FROM course WHERE patika_id = " +patika_id;
+        Course obj;
+        try {
+            Statement st = DbConnector.getInstance().createStatement();
+            ResultSet rs = st.executeQuery(query);
+            while(rs.next()){
+                obj = new Course(rs.getInt("id"),rs.getInt("user_id"),
+                        rs.getInt("patika_id"),rs.getString("name"),rs.getString("lang"));
                 courseList.add(obj);
             }
             st.close();
