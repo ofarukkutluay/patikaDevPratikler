@@ -1,0 +1,14 @@
+[
+  {
+    "Credit": 1000.0,
+    "UserId": 2,
+    "Safe": 48450.0,
+    "CreditCard": 1250.0
+  },
+  {
+    "Credit": 24750.0,
+    "UserId": 3,
+    "Safe": 98200.0,
+    "CreditCard": 1250.0
+  }
+]

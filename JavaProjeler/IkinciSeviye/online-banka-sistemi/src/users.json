@@ -1,0 +1,23 @@
+[
+  {
+    "Pass": "string",
+    "Id": 1,
+    "TC": "12345678911",
+    "Name": "Ömer",
+    "BirthDate": "1993-09-23"
+  },
+  {
+    "Pass": "string",
+    "Id": 2,
+    "TC": "12345678911",
+    "Name": "Ali Furkan",
+    "BirthDate": "2000-06-06"
+  },
+  {
+    "Pass": "string",
+    "Id": 3,
+    "TC": "12345678912",
+    "Name": "Ahmet",
+    "BirthDate": "1990-02-05"
+  }
+]
