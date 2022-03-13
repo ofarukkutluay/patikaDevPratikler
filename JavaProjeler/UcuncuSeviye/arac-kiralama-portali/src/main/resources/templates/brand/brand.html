@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Markalar - Araç Kiralama Portalı </title>
+    <link th:rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+<div class="container">
+
+
+
+    <div id="allCarTable" th:switch="${allBrands}">
+        <h2 th:case="null">Gösterilecek data bulunamadı!</h2>
+        <div th:case="*">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Edit/Delete</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="brand : ${allBrands}">
+                    <th scope="row" th:text="${brand.id}"></th>
+                    <td th:text="${brand.name}"></td>
+                    <td><a th:href="@{/brand/{id}(id=${brand.getId()})}">Edit</a> / <a th:href="@{/brand/delete/{id}(id=${brand.getId()})}">Delete</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <div class="col">
+        <div class="card" style="width: 22rem;">
+            <div class="card-body">
+                <div th:switch="${id}">
+                    <h5 class="card-title" th:case="null">Marka Ekle</h5>
+                    <h5 class="card-title" th:case="*">Marka Güncelle</h5>
+                </div>
+                <form action="#" th:action="@{/brand/add}" th:object="${brand}" method="post">
+                    <input class="form-control" th:field="*{id}" type="number" hidden>
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control" type="text" th:field="*{name}" id="name" >
+                    <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>
+
+                    <div class="btn-group d-grid gap-2 col-6 mx-auto" role="group" th:switch="${id}">
+                        <div th:case="null">
+                            <button class="btn btn-primary" type="submit" >Kaydet</button>
+                        </div>
+                        <div th:case="*" >
+                            <button class="btn btn-primary" type="submit" >Kaydet</button>
+                            <button  class="btn btn-danger" th:href="@{/brand}">İptal</button>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+</body>
+</html>

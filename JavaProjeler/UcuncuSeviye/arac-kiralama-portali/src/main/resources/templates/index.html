@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Araç Kiralama Portalı</title>
+
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" media="screen">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <h1 th:text="${baslik}"></h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img th:src="@{/images/arabalarTemp.jpg}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Arabalar</h5>
+                            <p class="card-text">Arabaların detaylarına ulaşmak düzenlemek silmek ve kayıt etmek için</p>
+                            <a th:href="@{/car}" class="btn btn-primary">Tıklayın...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img th:src="@{/images/markalarTemp.jpg}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Markalar</h5>
+                            <p class="card-text">Araç markalarının listelenmesi ve eklenmesi</p>
+                            <a th:href="@{/brand}" class="btn btn-primary">Tıklayınız...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img th:src="@{/images/markalarTemp.jpg}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Şirketler</h5>
+                            <p class="card-text">Araçkiralama yapan şirketler</p>
+                            <a th:href="@{/company}" class="btn btn-primary">Tıklayınız...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arabalar - Araç Kiralama Portalı</title>
+
+    <link th:rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+<div class="container">
+
+
+
+<div id="allCarTable" th:switch="${allCars}">
+    <h2 th:case="null">Gösterilecek data bulunamadı!</h2>
+    <div th:case="*">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Plate</th>
+                <th scope="col">Km</th>
+                <th scope="col">ModelYear</th>
+                <th scope="col">Edit/Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="car : ${allCars}">
+                <th scope="row" th:text="${car.getId()}"></th>
+                <td th:text="${car.getBrand().getName()}"></td>
+                <td th:text="${car.getPlate()}"></td>
+                <td th:text="${car.getKm()}"></td>
+                <td th:text="${car.getModelYear()}"></td>
+                <td><a th:href="@{/car/{id}(id=${car.getId()})}">Edit</a> / <a th:href="@{/car/delete/{id}(id=${car.getId()})}">Delete</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<div class="col">
+    <div class="card" style="width: 22rem;">
+        <div class="card-body">
+            <div th:switch="${id}">
+                <h5 class="card-title" th:case="null">Araç Ekle</h5>
+                <h5 class="card-title" th:case="*">Araç Güncelle</h5>
+            </div>
+
+            <form action="#" th:action="@{/car/add-car}" th:object="${car}" method="post">
+                <input class="form-control" th:field="*{id}" type="number" hidden>
+                <label class="form-label" for="brandId">BrandId</label>
+                <select id="brandId" class="form-select" aria-label="Marka Seçiniz" th:field="*{brand.id}">
+                    <option th:each="brand : ${allBrands}"
+                            th:value="${brand.getId()}"
+                            th:text="${brand.getName()}"></option>
+                </select>
+                <span th:if="${#fields.hasErrors('brand.id')}" th:errors="*{brand.id}"></span>
+
+                <label class="form-label" for="plate">Plate</label>
+                <input class="form-control" type="text" th:field="*{plate}" id="plate" >
+                <span th:if="${#fields.hasErrors('plate')}" th:errors="*{plate}"></span>
+
+                <label class="form-label" for="km">Km</label>
+                <input class="form-control" type="number" th:field="*{km}" id="km">
+                <span th:if="${#fields.hasErrors('km')}" th:errors="*{km}"></span>
+
+                <label class="form-label" for="modelYear">Model Year</label>
+                <input class="form-control" type="number" th:field="*{modelYear}" id="modelYear" >
+                <span th:if="${#fields.hasErrors('modelYear')}" th:errors="*{modelYear}"></span>
+
+                <div class="btn-group d-grid gap-2 col-6 mx-auto" role="group" th:switch="${id}">
+                    <div th:case="null">
+                        <button class="btn btn-primary" type="submit" >Kaydet</button>
+                    </div>
+                    <div th:case="*" >
+                        <button class="btn btn-primary" type="submit" >Kaydet</button>
+                        <button  class="btn btn-danger" th:href="@{/car}">İptal</button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</div>
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+</body>
+</html>
