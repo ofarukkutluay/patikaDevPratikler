@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/brand")
@@ -25,7 +26,8 @@ public class BrandController {
     }
 
     @GetMapping()
-    public String showBrand(Brand brand){
+    public String showBrand(Brand brand, Map<String,Object> map){
+        ControllerTools.navbarAuth(map);
         return "brand/brand";
     }
 
@@ -39,9 +41,10 @@ public class BrandController {
     }
 
     @GetMapping("/{id}")
-    public String getIdBrand(@PathVariable("id") int id, Model model){
+    public String getIdBrand(@PathVariable("id") int id, Model model,Map<String,Object> map){
         Brand brand = this.brandRepository.getById(id);
         model.addAttribute("brand",brand);
+        ControllerTools.navbarAuth(map);
         return "brand/brand";
     }
 

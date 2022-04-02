@@ -1,8 +1,10 @@
 package com.example.arackiralamaportali.Models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
@@ -16,7 +18,7 @@ public class Brand {
     private int id;
 
     @Column(name = "name")
-    @NotEmpty(message = "Marka ismi boş olamaz!")
+    @NotBlank(message = "Marka ismi boş olamaz!")
     private String name;
 
     @OneToMany(mappedBy = "brand")

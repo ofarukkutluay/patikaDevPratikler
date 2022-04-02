@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Araç Kirala - Araç Kiralama Portalı</title>
+
+    <link th:rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="card" th:object="${car}">
+            <div class="card-header">
+                <h5 class="card-title" th:text="*{company.getName()}"></h5>
+            </div>
+            <div class="card-body">
+                <label for="brand">Brand : </label>
+                <p class="card-text" id="brand" th:text="*{getBrand().getName()}"></p>
+
+                <label for="type">Type :</label>
+                <p class="card-text" id="type" th:text="*{getType().getName()}"></p>
+
+                <label for="km">Km :</label>
+                <p class="card-text" id="km" th:text="*{getKm()}"></p>
+
+                <label for="modelYear">Model Year :</label>
+                <p class="card-text" id="modelYear" th:text="*{getModelYear()}"></p>
+
+                <label for="plate">Plate :</label>
+                <p class="card-text" id="plate" th:text="*{getPlate()}"></p>
+
+                <label for="dailyPrice">Daily Price :</label>
+                <p class="card-text" id="DailyPrice" th:text="*{getDailyPrice()}"></p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <form action="#" th:action="@{/rent/add}" th:object="${rent}" method="post">
+
+            <label class="form-label" for="startRent">Start Date</label>
+            <input class="form-control" type="date" th:field="*{startRent}" id="startRent">
+            <span th:if="${#fields.hasErrors('startRent')}" th:errors="*{startRent}"></span>
+
+            <label class="form-label" for="endRent">End Date</label>
+            <input class="form-control" type="date" th:field="*{endRent}" id="endRent">
+            <span th:if="${#fields.hasErrors('endRent')}" th:errors="*{endRent}"></span>
+
+
+            <button class="btn btn-primary" type="submit">Kaydet</button>
+
+        </form>
+
+
+    </div>
+
+
+
+</div>
+
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Araç Kiralama Portalı </title>
+    <link th:rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <img alt="" class="img-thumbnail " th:src="@{/images/loginregisterimage.webp}">
+        </div>
+        <div class="col-md-6">
+            <div class="alert alert-danger" role="alert" th:if="${param.error}">
+                Kullanıcı Adı veya Şifre yanlış.
+            </div>
+            <form th:action="@{/login}" method="post">
+
+                <label>Kullanıcı Adınız</label>
+                <input type="text" name="username" class="form-control"/>
+
+                <label>Şifreniz</label>
+                <input type="password" id="password" name="password" class="form-control"/>
+
+                <br/>
+                <button class="btn btn-primary text-center form-control" type="submit">Giriş Yap</button>
+
+                <br/>
+                <br/>
+                <div class="margin-top20 text-center"><a th:href="@{/register}">Üye Olma Sayfasına Git</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+
+</body>
+</html>

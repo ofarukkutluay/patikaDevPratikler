@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Araç Kiralama Portalı</title>
 
-    <link href="../static/css/bootstrap.css">
-</head>
-<body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <meta charset="UTF-8">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
         <div class="container-fluid">
             <a class="navbar-brand" th:href="@{/}">OtoRentPortal</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -19,43 +12,38 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/rent">Rent</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" th:href="@{/car}">Car</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" th:href="@{/brand}">Brand</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" th:href="@{/company}">Company</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li class="nav-item dropdown" th:if="${#strings.equals(authority,'ROLE_ADMIN')}">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                           aria-expanded="false">Admin</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" th:href="@{/car}">Car</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" th:href="@{/brand}">Brand</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" th:href="@{/company}">Company</a>
+                            </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
+
+
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="d-flex" th:unless="${adminname}">
+                    <a class="nav-link" th:href="@{/login}">Login</a>
+                    <a class="nav-link" th:href="@{/register}">Register</a>
+                </div>
+                <div class="d-flex" th:if="${adminname}">
+                    <a class="nav-link" th:href="@{/secure}">Secure</a>
+                    <a class="nav-link" th:text="${adminname}"></a>
+                    <a class="nav-link" th:text="${authority}"></a>
+                </div>
             </div>
         </div>
     </nav>
-</header>
-<script src="../static/js/bootstrap.bundle.js"></script>
-</body>
-</html>

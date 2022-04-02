@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markalar - Araç Kiralama Portalı </title>
+  <link th:rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <span th:text="'Message : ' + 'Kullanıcı Detaylı bilgileri'"></span>
+      <hr>
+      <span th:text="'Kullanıcı Adı : ' + ${adminname}"></span>
+      <hr>
+      <span th:text="'Kullanıcı Rolü : ' + ${authority}"></span>
+      <hr>
+      <form th:action="@{/logout}" method="post">
+        <input type="submit" value="Sign Out"/>
+      </form>
+    </div>
+  </div>
+</div>
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+</body>
+</html>

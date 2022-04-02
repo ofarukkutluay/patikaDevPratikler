@@ -11,81 +11,118 @@
 <div class="container">
 
 
+    <div id="allCarTable" th:switch="${allCars}">
+        <h2 th:case="null">Gösterilecek data bulunamadı!</h2>
+        <div th:case="*">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Company</th>
+                    <th scope="col">Brand</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Plate</th>
+                    <th scope="col">Km</th>
+                    <th scope="col">ModelYear</th>
+                    <th scope="col">Daily Price</th>
+                    <th scope="col">Price Validity Date</th>
+                    <th scope="col">Edit/Delete</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="car : ${allCars}">
+                    <th scope="row" th:text="${car.getId()}"></th>
+                    <td th:text="${car.getCompany().getName()}"></td>
+                    <td th:text="${car.getBrand().getName()}"></td>
+                    <td th:text="${car.getType().getName()}"></td>
+                    <td th:text="${car.getPlate()}"></td>
+                    <td th:text="${car.getKm()}"></td>
+                    <td th:text="${car.getModelYear()}"></td>
+                    <td th:text="${car.getDailyPrice()}"></td>
+                    <td th:text="${car?.getPriceValidityDate()}"></td>
+                    <td><a th:href="@{/car/{id}(id=${car.getId()})}">Edit</a> / <a
+                            th:href="@{/car/delete/{id}(id=${car.getId()})}">Delete</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-<div id="allCarTable" th:switch="${allCars}">
-    <h2 th:case="null">Gösterilecek data bulunamadı!</h2>
-    <div th:case="*">
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Brand</th>
-                <th scope="col">Plate</th>
-                <th scope="col">Km</th>
-                <th scope="col">ModelYear</th>
-                <th scope="col">Edit/Delete</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr th:each="car : ${allCars}">
-                <th scope="row" th:text="${car.getId()}"></th>
-                <td th:text="${car.getBrand().getName()}"></td>
-                <td th:text="${car.getPlate()}"></td>
-                <td th:text="${car.getKm()}"></td>
-                <td th:text="${car.getModelYear()}"></td>
-                <td><a th:href="@{/car/{id}(id=${car.getId()})}">Edit</a> / <a th:href="@{/car/delete/{id}(id=${car.getId()})}">Delete</a></td>
-            </tr>
-            </tbody>
-        </table>
     </div>
-
-</div>
-<div class="col">
-    <div class="card" style="width: 22rem;">
-        <div class="card-body">
-            <div th:switch="${id}">
-                <h5 class="card-title" th:case="null">Araç Ekle</h5>
-                <h5 class="card-title" th:case="*">Araç Güncelle</h5>
-            </div>
-
-            <form action="#" th:action="@{/car/add-car}" th:object="${car}" method="post">
-                <input class="form-control" th:field="*{id}" type="number" hidden>
-                <label class="form-label" for="brandId">BrandId</label>
-                <select id="brandId" class="form-select" aria-label="Marka Seçiniz" th:field="*{brand.id}">
-                    <option th:each="brand : ${allBrands}"
-                            th:value="${brand.getId()}"
-                            th:text="${brand.getName()}"></option>
-                </select>
-                <span th:if="${#fields.hasErrors('brand.id')}" th:errors="*{brand.id}"></span>
-
-                <label class="form-label" for="plate">Plate</label>
-                <input class="form-control" type="text" th:field="*{plate}" id="plate" >
-                <span th:if="${#fields.hasErrors('plate')}" th:errors="*{plate}"></span>
-
-                <label class="form-label" for="km">Km</label>
-                <input class="form-control" type="number" th:field="*{km}" id="km">
-                <span th:if="${#fields.hasErrors('km')}" th:errors="*{km}"></span>
-
-                <label class="form-label" for="modelYear">Model Year</label>
-                <input class="form-control" type="number" th:field="*{modelYear}" id="modelYear" >
-                <span th:if="${#fields.hasErrors('modelYear')}" th:errors="*{modelYear}"></span>
-
-                <div class="btn-group d-grid gap-2 col-6 mx-auto" role="group" th:switch="${id}">
-                    <div th:case="null">
-                        <button class="btn btn-primary" type="submit" >Kaydet</button>
-                    </div>
-                    <div th:case="*" >
-                        <button class="btn btn-primary" type="submit" >Kaydet</button>
-                        <button  class="btn btn-danger" th:href="@{/car}">İptal</button>
-                    </div>
-
+    <div class="col">
+        <div class="card" style="width: 22rem;">
+            <div class="card-body">
+                <div th:switch="${id}">
+                    <h5 class="card-title" th:case="null">Araç Ekle</h5>
+                    <h5 class="card-title" th:case="*">Araç Güncelle</h5>
                 </div>
 
-            </form>
-        </div>
-    </div>
+                <form action="#" th:action="@{/car/add}" th:object="${car}" method="post">
+                    <input class="form-control" th:field="*{id}" type="number" hidden>
+                    <label class="form-label" for="companyId">CompanyId</label>
+                    <select id="companyId" class="form-select" aria-label="Firma Seçiniz" th:field="*{company.id}">
+                        <option th:each="company : ${allCompanies}"
+                                th:value="${company.getId()}"
+                                th:text="${company.getName()}"></option>
+                    </select>
+                    <span th:if="${#fields.hasErrors('company.id')}" th:errors="*{company.id}"></span>
 
-</div>
+                    <label class="form-label" for="brandId">BrandId</label>
+                    <select id="brandId" class="form-select" aria-label="Marka Seçiniz" th:field="*{brand.id}">
+                        <option th:each="brand : ${allBrands}"
+                                th:value="${brand.getId()}"
+                                th:text="${brand.getName()}"></option>
+                    </select>
+                    <span th:if="${#fields.hasErrors('brand.id')}" th:errors="*{brand.id}"></span>
+
+                    <label class="form-label" for="type">Type</label>
+                    <!--<select id="type" class="form-select" aria-label="Tipi Seçiniz" th:field="*{type}">
+                        <option th:each="type : ${T(com.example.arackiralamaportali.Models.CarType).values()}"
+                                th:value="${type}"
+                                th:text="${type.displayValue}"></option>
+                    </select>-->
+                    <select id="type" class="form-select" aria-label="Tipi Seçiniz" th:field="*{type.id}">
+                        <option th:each="type : ${allCarTypes}"
+                                th:value="${type.getId()}"
+                                th:text="${type.getName()}"></option>
+                    </select>
+                    <span th:if="${#fields.hasErrors('type')}" th:errors="*{type}"></span>
+
+                    <label class="form-label" for="plate">Plate</label>
+                    <input class="form-control" type="text" th:field="*{plate}" id="plate">
+                    <span th:if="${#fields.hasErrors('plate')}" th:errors="*{plate}"></span>
+
+                    <label class="form-label" for="km">Km</label>
+                    <input class="form-control" type="number" th:field="*{km}" id="km">
+                    <span th:if="${#fields.hasErrors('km')}" th:errors="*{km}"></span>
+
+                    <label class="form-label" for="modelYear">Model Year</label>
+                    <input class="form-control" type="number" th:field="*{modelYear}" id="modelYear">
+                    <span th:if="${#fields.hasErrors('modelYear')}" th:errors="*{modelYear}"></span>
+
+                    <label class="form-label" for="dailyPrice">Daily Price</label>
+                    <input class="form-control" type="number" th:field="*{dailyPrice}" id="dailyPrice">
+                    <span th:if="${#fields.hasErrors('dailyPrice')}" th:errors="*{dailyPrice}"></span>
+
+                    <label class="form-label" for="priceValidityDate">Price Validity Date</label>
+                    <input class="form-control" type="date" th:field="*{priceValidityDate}" id="priceValidityDate">
+                    <span th:if="${#fields.hasErrors('priceValidityDate')}" th:errors="*{priceValidityDate}"></span>
+
+                    <div class="btn-group d-grid gap-2 col-6 mx-auto" role="group" th:switch="${id}">
+                        <div th:case="null">
+                            <button class="btn btn-primary" type="submit">Kaydet</button>
+                        </div>
+                        <div th:case="*">
+                            <button class="btn btn-primary" type="submit">Kaydet</button>
+                            <button class="btn btn-danger" th:href="@{/car}">İptal</button>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
 
 </div>
 <script th:src="@{/js/bootstrap.bundle.js}"></script>

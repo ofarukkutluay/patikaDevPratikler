@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Araç Kiralama Portalı </title>
+    <link th:rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <img alt=""  class="img-thumbnail " th:src="@{/images/loginregisterimage.webp}">
+        </div>
+        <div class="col-md-6" th:unless="${message}">
+            <div class="alert alert-success" role="alert" th:if="${message}">
+                Kayıt işlemi başarılı... ( successful )
+            </div>
+            <form autocomplete="off" action="#" th:action="@{/register}" th:object="${user}" method="post">
+
+                <label>Kullanıcı Adınız </label>
+                <input type="text" id="username" placeholder="User Name" th:field="*{userName}" class="form-control"/><br/>
+
+                <label>Parolanız </label>
+                <input type="text" id="password" placeholder=" Password" th:field="*{password}" class="form-control"/><br/>
+
+                <label>Role Seçiniz.</label>
+                <select name="roles" class="form-control">
+                    <option th:each="role : ${roles}"
+                            th:value="${role.getRole_id()}"
+                            th:text="${role.getRoleName()}"></option>
+                </select><br/>
+
+                <button type="submit" class="btn btn-primary text-center form-control">Kaydet</button>
+            </form>
+        </div>
+        <div class="margin-top20 text-center"><a th:href="@{/login}">Giriş Sayfasına Git</a></div>
+
+
+    </div>
+</div>
+
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+
+</body>
+</html>

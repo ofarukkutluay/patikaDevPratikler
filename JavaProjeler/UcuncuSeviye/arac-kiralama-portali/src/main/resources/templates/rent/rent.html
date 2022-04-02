@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiralama - Araç Kiralama Portalı</title>
+
+    <link th:rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+<div th:replace="_navbar :: header"></div>
+<div class="container">
+
+    <div class="row">
+        <div class="card">
+            <form th:action="@{/rent}" th:object="${rentFilter}" method="get">
+                <div class="card-header">
+                    <h6>Ara...</h6>
+                </div>
+                <div class="card-body">
+
+
+                    <div class="row">
+
+                        <div class="col">
+                            <label class="form-label" for="city">Şehir Seçiniz</label>
+                            <select name="city" class="form-control" id="city" th:field="*{cityId}">
+                                <option th:each="city : ${allCities}"
+                                        th:value="${city.getId()}"
+                                        th:text="${city.getName()}"></option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label class="form-label" for="type">Type</label>
+                            <select id="type" class="form-select" aria-label="Tipi Seçiniz" th:field="*{typeId}">
+                                <option th:each="type : ${allCarTypes}"
+                                        th:value="${type.getId()}"
+                                        th:text="${type.getName()}"></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Ara</button>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div id="allCarTable" th:switch="${filterCars}">
+            <h2 th:case="null">Gösterilecek data bulunamadı!</h2>
+            <div th:case="*">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Company</th>
+                        <th scope="col">Brand</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Plate</th>
+                        <th scope="col">Km</th>
+                        <th scope="col">ModelYear</th>
+                        <th scope="col">Daily Price</th>
+                        <th scope="col">Price Validity Date</th>
+                        <th scope="col">Edit/Delete</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="car : ${filterCars}">
+                        <th scope="row" th:text="${car.getId()}"></th>
+                        <td th:text="${car.getCompany().getName()}"></td>
+                        <td th:text="${car.getBrand().getName()}"></td>
+                        <td th:text="${car.getType().getName()}"></td>
+                        <td th:text="${car.getPlate()}"></td>
+                        <td th:text="${car.getKm()}"></td>
+                        <td th:text="${car.getModelYear()}"></td>
+                        <td th:text="${car.getDailyPrice()}"></td>
+                        <td th:text="${car?.getPriceValidityDate()}"></td>
+                        <td><a th:href="@{/rent/{carId}(carId=${car.getId()})}">Kirala</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script th:src="@{/js/bootstrap.bundle.js}"></script>
+</body>
+</html>
